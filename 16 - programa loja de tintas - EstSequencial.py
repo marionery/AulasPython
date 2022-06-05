@@ -6,7 +6,7 @@
 # que custam R$ 80,00. Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total.
 
 area = float(input('Informe o tamanho da área a ser pintada em M²: '))
-valor_lata = float(input('Informe o valor da lata de 18L: '))
+valor_lata = float(input('Informe o valor da lata de 18L:'))
 
 rendimento = 18 * 3
 quant_latas = (area / rendimento)
