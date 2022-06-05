@@ -10,4 +10,4 @@ num3 = int(input('Informe o terceiro número: '))
 lista = [num1, num2, num3]
 lista.sort(reverse=True)
 lista_str = str(lista)[1:-1]
-print('Lista em ordem decrescente:', lista_str)
+print('Resultado da lista em ordem decrescente:', lista_str)
