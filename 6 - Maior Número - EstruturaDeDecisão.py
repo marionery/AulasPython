@@ -8,8 +8,8 @@ num2 = float(input('Informe o segundo número: '))
 num3 = float(input('Informe o terceiro número: '))
 
 if (num1 > num2) and (num1 > num3):
-    print('O primeiro número é o maior número')
+    print('O primeiro número é o maior.')
 elif (num2 > num1) and (num2 > num3):
-    print('O segundo número é o maior número')
+    print('O segundo número é o maior.')
 else:
-    print('O terceiro número é o maior número')
+    print('O terceiro número é o maior.')
