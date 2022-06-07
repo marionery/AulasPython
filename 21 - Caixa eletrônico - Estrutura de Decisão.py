@@ -41,3 +41,5 @@ print('%d nota(s) de 50' % (cinquenta))
 print('%d nota(s) de 10' % (dezena))
 print('%d nota(s) de 5' % (cinco))
 print('%d nota(s) de 1' % (unidade))
+
+#print ('Notas fornecidas: %d notas de 100, %d notas de 50, %d notas de 10, %d notas de 5 e %d notas de 1' % (centena, cinquenta, dezena, cinco, unidade))
