@@ -73,7 +73,7 @@ if (cartaoTabaj == 1):
     print('Forma de pagamento: Cartão Tabajara')
 else:
     print('Forma de pagamento: Outra')
-print(f'Valor do desconto: R$ {valorDesconto:,.2f}')
+print(f'Valor do desconto : R$ {valorDesconto:,.2f}')
 print('-------------------------------------')
 print(f'VALOR TOTAL A PAGAR: R$ {valorFinal:,.2f}')
 print('-------------------------------------')
