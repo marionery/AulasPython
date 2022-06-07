@@ -12,12 +12,12 @@
 bemvindo = print('SEJA BEM VINDO AO BANCO TABAJARA')
 disponivel = print('As notas disponíveis neste caixa são: R$ 1, 5, 10, 50 e 100')
 print('---------------------------------------------------')
-saque = float(input('Informe o valor do seu saque: R$ '))
+saque = int(input('Informe o valor do seu saque: R$ '))
 print('---------------------------------------------------')
 
-while (saque < 5) or (saque > 600):
-    print('Valor inválido. Valor sacado deve estar entre R$ 5 e R$ 600')
-    saque = float(input('Informe o valor do seu saque: R$ '))
+while (saque < 10) or (saque > 600):
+    print('Valor inválido. Valor sacado deve estar entre R$ 10 e R$ 600')
+    saque = int(input('Informe o valor do seu saque: R$ '))
 else:
     unidade = saque % 10
     dezena = saque / 10 % 10
@@ -35,4 +35,9 @@ if dezena > 5:
 else:
     cinquenta = 0
 
-print ('Notas fornecidas: %d notas de 100, %d notas de 50, %d notas de 10, %d notas de 5 e %d notas de 1' % (centena, cinquenta, dezena, cinco, unidade))
+print('Notas fornecidas:')
+print('%d nota(s) de 100' % (centena))
+print('%d nota(s) de 50' % (cinquenta))
+print('%d nota(s) de 10' % (dezena))
+print('%d nota(s) de 5' % (cinco))
+print('%d nota(s) de 1' % (unidade))
