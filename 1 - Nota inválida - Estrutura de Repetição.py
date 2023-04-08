@@ -11,7 +11,7 @@ while (nota < 0) or (nota > 10):
 else:
     print('Nota válida:', nota)
 
-#OUTRA SAIDA PARA ISSO:
+#OUTRA SAIDA PARA ISSO
 
 # nota = -1
 # while (nota < 0) or (nota > 10):
