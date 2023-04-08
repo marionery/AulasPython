@@ -12,7 +12,11 @@ else:
     print('Nota válida:', nota)
 
 
+<<<<<<< HEAD
 #OUTRA SAIDA
+=======
+#OUTRA POSSIBILIDADE
+>>>>>>> 08973cad2c0475b8edb1e6142aac261255296a1d
 
 # nota = -1
 # while (nota < 0) or (nota > 10):
