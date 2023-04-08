@@ -12,7 +12,7 @@ else:
     print('Nota válida:', nota)
 
 
-#OUTRA OPÇÃO:
+#OUTRA POSSIBILIDADE:
 
 # nota = -1
 # while (nota < 0) or (nota > 10):
